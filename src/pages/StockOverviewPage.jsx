@@ -1,8 +1,13 @@
-import React from 'react'
+import React from 'react';
+import AutoComplete from '../components/AutoComplete';
+import StockList from '../components/StockList';
 
 const StockOverviewPage = () => {
     return (
-        <div>StockOverviewPage</div>
+        <div>
+            <AutoComplete />
+            <StockList />
+        </div>
     )
 }
 
