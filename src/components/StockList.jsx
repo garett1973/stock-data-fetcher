@@ -10,6 +10,7 @@ const Stocklist = () => {
     const navigate = useNavigate();
 
     useEffect(() => {
+
         let isMounted = true;
         const fetchData = async () => {
             try {
